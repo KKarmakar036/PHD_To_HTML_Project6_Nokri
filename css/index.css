@@ -1,0 +1,3913 @@
+@font-face {
+    font-family:Bahnschrift,Regular;
+    src: url(../font/Bahnschrift\ Regular);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Bahnschrift,Regular;
+}
+.container{
+    padding: 0% 8%;
+}
+.container2{
+    padding: 0% 6%;
+}
+.container3{
+    padding: 0% 4%;
+}
+.container4{
+    padding: 0% 3%;
+}
+h1,h2,p,h3{
+    font-weight: normal;
+}
+
+header .heder_nav{
+    color: white;
+    background-color: #0e2782;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 3%;
+}
+header .heder_nav .left{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+header .heder_nav .left .card{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+header .heder_nav .left .card i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+header .heder_nav .left .card p{
+    font-size: 13px;
+}
+header .heder_nav .right{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+header .heder_nav .right p a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+header .man_nav{
+    padding: 2% 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid red;
+    position:-webkit-sticky ;
+}
+header .man_nav .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+header .man_nav .icon .main_logo img{
+    width: 70%;
+}
+header .man_nav .icon .manu_icon{
+    font-size: 25px;
+    border: none;
+}
+header .man_nav .icon .manu_icon i{
+    background-color: white;
+    color: navy;
+}
+.manu_icon{
+    display: none;
+}
+
+header .man_nav .list{
+    width: 85%;
+}
+header .man_nav .list2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .man_nav .list2 .main_list {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 70%;
+    text-transform: capitalize;
+}
+header .man_nav .list2 .main_list p a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+header .man_nav .list2 .main_list p span{
+    font-size: 10px;
+    background-color: #f42959;
+    padding:3px 6px;
+    color: white;
+    border-radius: 3px;
+
+}
+
+header .man_nav .list2 .main_list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+header .man_nav .list2 .main_list2 .card {
+    display: flex;
+    align-items: center;
+}
+header .man_nav .list2 .main_list2 .card i{
+    margin-right:5px;
+}
+header .man_nav .list2 .main_list2 .card p a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+header .man_nav .list2 .main_list2 .card2 {
+    padding: 3%;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #0e2782;
+    border-radius: 3px;
+}
+header .man_nav .list2 .main_list2 .card2 i{
+    margin-right:5px;
+    background-color: white;
+    color: #0e2782;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+header .man_nav .list2 .main_list2 .card2 p a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    color: white;
+}
+/* .sticky{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top:0 ;
+} */
+
+
+main .banner {
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 85vh;
+}
+main .banner .container .banner1{
+    padding-top: 16%;
+    color: white;
+}
+main .banner .container .banner1 .top{
+    padding-bottom: 5%;
+}
+main .banner .container .banner1 .top h1{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+main .banner .container .banner1 .top .content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+main .banner .container .banner1 .top .content .card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    height: 45px;
+    margin-right: 15px;
+    padding: 0px 10px;
+    background-color: #152560;
+}
+main .banner .container .banner1 .top .content .card2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 16%;
+    height: 45px;
+    margin-right: 15px;
+    padding: 0px 10px;
+    background-color: #152560;
+}
+main .banner .container .banner1 .top .content .card3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14%;
+    height: 45px;
+    margin-right: 15px;
+    padding: 0px 10px;
+    background-color: #152560;
+}
+main .banner .container .banner1 .top .content .card4{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 10%;
+    height: 45px;
+    margin-right: 15px;
+    padding: 0px 10px;
+    background-color: #072594;
+}
+main .banner .container .banner1 .top .content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 37%;
+}
+
+
+main .banner .banner2{
+    border-top: 1px solid white;
+}
+main .banner .banner2 .container .banner3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0%;
+}
+main .banner .banner2 .container .banner3 .left{
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+main .banner .banner2 .container .banner3 .left .icon{
+    width: 7%;
+    margin-right: 20px;
+}
+main .banner .banner2 .container .banner3 .left .icon img{
+    width: 100%;
+}
+main .banner .banner2 .container .banner3 .left .text{
+    color: white;
+}
+main .banner .banner2 .container .banner3 .left .text h3{
+    margin-bottom: 3px;
+    font-weight: normal;
+}
+main .banner .banner2 .container .banner3 .right{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .banner .banner2 .container .banner3 .right button{
+    height: 45px;
+    width: 36%;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+
+
+main .job .container{
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+main .job .container .job2{
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1{
+    width: 64%;
+}
+main .job .container .job2 .content1 .hed_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .hed_text .left{
+    width: 70%;
+}
+main .job .container .job2 .content1 .hed_text .left h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+main .job .container .job2 .content1 .hed_text .left p{
+    color: #625f5f;
+}
+main .job .container .job2 .content1 .hed_text .right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .hed_text .right button{
+    height: 40px;
+    width: 40%;
+    background-color: #072e6f;
+    color: white;
+    border:none;
+}
+main .job .container .job2 .content1 .hed_text .right p{
+    color: #383434;
+}
+
+
+main .job .container .job2 .content1 .apply{
+    margin-top: 30px;
+}
+main .job .container .job2 .content1 .apply .apply_card1{
+    border: 1px solid rgb(216, 210, 210);
+}
+main .job .container .job2 .content1 .apply .apply_card1 .top{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .top .icon{
+    border: 1px solid #1f427d;
+    height: 65px;
+    padding: 3px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .top .icon img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .top .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .top .text h3{
+    font-size: 20px;
+    margin: 4px 0px;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .top .text .left{
+    width: 41%;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .top .text .left p{
+    font-size: 14px;
+    color: #949393;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+    background-color: #f0efec;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1{
+    display: flex;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .left{
+    border-right: 1px solid #9b9490;;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 20px;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .left i{
+    margin-right: 10px;
+    color: #c4b6b6;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .left p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .right{
+    display: flex;
+    align-items: center;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .right p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .right .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 2px;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .right .dot img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card2{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card1 .dun .card2 button{
+    border: 2px solid #9b9490;
+    padding: 3%;
+    width: 37%;
+    border-radius: 3px;
+    color: #9b9490;
+    background-color: white;
+   
+}
+
+
+main .job .container .job2 .content1 .apply .apply_card2{
+    margin-top: 30px;
+    border: 1px solid rgb(216, 210, 210);
+}
+main .job .container .job2 .content1 .apply .apply_card2 .top{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .top .icon{
+    height: 65px;
+    padding: 3px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border: 1px solid #1f427d;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .top .icon img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .top .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .top .text h3{
+    font-size: 20px;
+    margin: 4px 0px;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .top .text .left{
+    width: 41%;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .top .text .left p{
+    font-size: 14px;
+    color: #949393;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+    background-color: #f0efec;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1{
+    display: flex;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .left{
+    border-right: 1px solid #9b9490;;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 20px;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .left i{
+    margin-right: 10px;
+    color: #c4b6b6;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .left p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .right{
+    display: flex;
+    align-items: center;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .right p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .right .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    margin-right:5px;
+    border-radius: 50%;
+    padding: 2px;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .right .dot img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card2{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card2 .dun .card2 button{
+    border: 2px solid #9b9490;
+    padding: 3%;
+    width: 37%;
+    border-radius: 3px;
+    color: #9b9490;
+    background-color: white;
+   
+}
+
+
+main .job .container .job2 .content1 .apply .apply_card3{
+    margin-top: 30px;
+    border: 1px solid rgb(216, 210, 210);
+}
+main .job .container .job2 .content1 .apply .apply_card3 .top{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .top .icon{
+    height: 65px;
+    padding: 3px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border: 1px solid #1f427d;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .top .icon img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .top .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .top .text h3{
+    font-size: 20px;
+    margin: 4px 0px;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .top .text .left{
+    width: 41%;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .top .text .left p{
+    font-size: 14px;
+    color: #949393;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+    background-color: #f0efec;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1{
+    display: flex;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .left{
+    border-right: 1px solid #9b9490;;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 20px;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .left i{
+    margin-right: 10px;
+    color: #c4b6b6;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .left p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .right{
+    display: flex;
+    align-items: center;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .right p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .right .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    margin-right:5px;
+    border-radius: 50%;
+    padding: 2px;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .right .dot img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card2{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card3 .dun .card2 button{
+    border: 2px solid #9b9490;
+    padding: 3%;
+    width: 37%;
+    border-radius: 3px;
+    color: #9b9490;
+    background-color: white;
+   
+}
+
+
+main .job .container .job2 .content1 .apply .apply_card4{
+    margin-top: 30px;
+    border: 1px solid rgb(216, 210, 210);
+}
+main .job .container .job2 .content1 .apply .apply_card4 .top{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .top .icon{
+    height: 65px;
+    padding: 3px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border: 1px solid #1f427d;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .top .icon img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .top .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .top .text h3{
+    font-size: 20px;
+    margin: 4px 0px;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .top .text .left{
+    width: 41%;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .top .text .left p{
+    font-size: 14px;
+    color: #949393;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+    background-color: #f0efec;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1{
+    display: flex;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .left{
+    border-right: 1px solid #9b9490;;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 20px;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .left i{
+    margin-right: 10px;
+    color: #c4b6b6;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .left p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .right{
+    display: flex;
+    align-items: center;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .right p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .right .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    margin-right:5px;
+    border-radius: 50%;
+    padding: 2px;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .right .dot img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card2{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card4 .dun .card2 button{
+    border: 2px solid #9b9490;
+    padding: 3%;
+    width: 37%;
+    border-radius: 3px;
+    color: #9b9490;
+    background-color: white;
+   
+}
+
+
+main .job .container .job2 .content1 .apply .apply_card5{
+    margin-top: 30px;
+    border: 1px solid rgb(216, 210, 210);
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top .icon{
+    height: 65px;
+    padding: 3px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border: 1px solid #1f427d;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top .icon img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top .text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top .text2{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top .text h3{
+    font-size: 20px;
+    margin: 4px 0px;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top .text .left{
+    width: 60%;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .top .text .left p{
+    font-size: 14px;
+    color: #949393;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+    background-color: #f0efec;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1{
+    display: flex;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .left{
+    border-right: 1px solid #9b9490;;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 20px;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .left i{
+    margin-right: 10px;
+    color: #c4b6b6;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .left p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .right{
+    display: flex;
+    align-items: center;
+    color: #9b9490;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .right p{
+    font-size: 13px;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .right .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    margin-right:5px;
+    border-radius: 50%;
+    padding: 2px;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .right .dot img{
+    width: 100%;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card2{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+main .job .container .job2 .content1 .apply .apply_card5 .dun .card2 button{
+    border: 2px solid #9b9490;
+    padding: 3%;
+    width: 37%;
+    border-radius: 3px;
+    color: #9b9490;
+    background-color: white;
+   
+}
+
+
+
+main .job .container .job2 .content2{
+    width: 33%;
+}
+main .job .container .job2 .content2 .card1{
+    border: 1px solid #87837f;
+    border-radius: 4px;
+}
+main .job .container .job2 .content2 .text1{
+    border-bottom: 1px solid #87837f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0% 4%;
+}
+main .job .container .job2 .content2 .text2{
+    display: flex;
+    justify-content: space-between;
+}
+main .job .container .job2 .content2 .text2 .icon1{
+    padding: 10px;
+}
+main .job .container .job2 .content2 .text2 .icon2{
+    text-align: center;
+    padding: 10px 0px;
+}
+main .job .container .job2 .content2 .text2 .icon2 p{
+    font-size: 20px;
+    color: #848383;
+}
+main .job .container .job2 .content2 .text2 .icon2 img{
+    margin-top: 5px;
+    width: 55%;
+}
+main .job .container .job2 .content2 .text2 .icon3{
+    width: 7%;
+}
+main .job .container .job2 .content2 .text2 .icon3 img{
+    width: 100%;
+}
+main .job .container .job2 .content2 .text3{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e1de;
+    color: #a69895;
+}
+main .job .container .job2 .content2 .text3 i{
+    margin-right: 10px;
+}
+
+main .job .container .job2 .content2 .text4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+main .job .container .job2 .content2 .text4 .card{
+    padding: 4px 7px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #8c8b8a;
+}
+main .job .container .job2 .content2 .text5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 18px;
+    border-top: 1px solid #87837f;
+}
+
+
+main .job .container .job2 .content2 .card2{
+    border: 1px solid #87837f;
+    margin-top: 60px;
+    border-radius: 4px;
+}
+main .job .container .job2 .content2 .card2 .row1{
+    padding: 2% 3%;
+}
+main .job .container .job2 .content2 .card2 .row{
+    border-top: 1px solid #87837f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 3%;
+}
+main .job .container .job2 .content2 .card2 .row .left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+main .job .container .job2 .content2 .card2 .row .left .icon{
+    height: 17px;
+    width: 20px;
+    display: flex;
+    margin-right: 10px;
+}
+main .job .container .job2 .content2 .card2 .row .left .icon img{
+    width: 100%;
+}
+main .job .container .job2 .content2 .card2 .row .left p{
+    font-size: 13px;
+}
+main .job .container .job2 .content2 .card2 .row .right p{
+    font-size: 13px;
+}
+
+
+main .job .container .job2 .content2 .card3{
+    margin-top: 50px;
+    color: white;
+}
+main .job .container .job2 .content2 .card3 .question{
+    width: 75%;
+    height: 250px;
+    background-image: url(../img/qa.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+}
+main .job .container .job2 .content2 .card3 .question .text{
+    margin-top: 40px;
+}
+main .job .container .job2 .content2 .card3 .question .text .icon img{
+    width: 15%;
+}
+main .job .container .job2 .content2 .card3 .question .text h3{
+    margin: 10px 0px;
+}
+main .job .container .job2 .content2 .card3 .question .text p{
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+
+main .hiring {
+    background-color: #f4f2f2;
+}
+main .hiring .container2 .hiring2{
+    padding: 80px 0px;
+}
+main .hiring .container2 .hiring2 .hed_text2{
+    text-align: center;
+}
+main .hiring .container2 .hiring2 .hed_text2 h2{
+    font-size: 40px;
+}
+main .hiring .container2 .hiring2 .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+main .hiring .container2 .hiring2 .content .card{
+    width: 16%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+main .hiring .container2 .hiring2 .content .card img{
+    width: 55%;
+}
+
+main .employer .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10% 0%;
+    color: white;
+}
+main .employer .container .content .card{
+    width: 49%;
+    height:300px;
+    padding: 3%;
+    background-image: url(../img/re.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+main .employer .container .content .card h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+main .employer .container .content .card p{
+    margin: 20px 0px;
+    padding-right: 100px;
+}
+main .employer .container .content .card button{
+    padding: 2%;
+    width: 25%;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+main .employer .container .content .card2{
+    width: 49%;
+    height:300px;
+    padding: 3%;
+    background-image: url(../img/re-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+main .employer .container .content .card2 h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+main .employer .container .content .card2 p{
+    margin: 20px 0px;
+    padding-right: 100px;
+}
+main .employer .container .content .card2 button{
+    padding: 2%;
+    width: 25%;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+
+main .success .container3 .success2{
+    padding: 5% 0% 14% 0%;
+}
+main .success .container3 .success2 .hed_text{
+    text-align: center;
+}
+main .success .container3 .success2 .hed_text h2{
+    font-size: 40px;
+}
+main .success .container3 .success2 .hed_text p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #979292;
+}
+
+main .success .container3 .success2 .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4%;
+}
+main .success .container3 .success2 .content .card{
+    width: 32%;
+    border: 1px solid #d1cdcd;
+    padding: 30px 0px 20px 20px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.147);
+}
+main .success .container3 .success2 .content .card p{
+    padding-right: 80px;
+    color: #707270;
+}
+main .success .container3 .success2 .content .card .dun{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+main .success .container3 .success2 .content .card .dun .icon{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+main .success .container3 .success2 .content .card .dun .icon img{
+    width: 100%;
+}
+main .success .container3 .success2 .content .card .dun .text p{
+    color: #474646;
+}
+main .success .container3 .success2 .content .card .dun .icon2{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 350px;
+    top: 40px;
+}
+main .success .container3 .success2 .content .card .dun .icon2 img{
+    width: 100%;
+}
+
+
+
+
+
+main .Pricing{
+    background-color: #f0eeee;
+}
+main .Pricing .container2 .Pricing2{
+    padding: 4% 0%;
+}
+main .Pricing .container2 .Pricing2 .hed_text{
+    text-align: center;
+}
+main .Pricing .container2 .Pricing2 .hed_text h2{
+    font-size: 40px;
+}
+main .Pricing .container2 .Pricing2 .hed_text p{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #979292;
+}
+
+main .Pricing .container2 .Pricing2 .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+main .Pricing .container2 .Pricing2 .content .card{
+    width: 32%;
+    height: 550px;
+    background-image: url(../img/ax-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 30px;
+}
+main .Pricing .container2 .Pricing2 .content .card .text1{
+    width: 60%;
+}
+main .Pricing .container2 .Pricing2 .content .card .text1 h2{
+    font-size: 30px;
+}
+main .Pricing .container2 .Pricing2 .content .card .text1 p{
+    font-size: 13px;
+    margin: 15px 0px;
+    color: #7d7e7d;
+}
+main .Pricing .container2 .Pricing2 .content .card .text2{
+    border-top: 1px solid #727572;
+    padding-top: 20px;
+}
+main .Pricing .container2 .Pricing2 .content .card .text2 .icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .Pricing .container2 .Pricing2 .content .card .text2 .icon p{
+    font-size: 15px;
+    color: #5a5c5a;
+}
+main .Pricing .container2 .Pricing2 .content .card .text2 .icon .icon2{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+main .Pricing .container2 .Pricing2 .content .card .text2 .icon .icon2 img{
+    width: 100%;
+}
+main .Pricing .container2 .Pricing2 .content .card button{
+    padding: 3%;
+    margin-top: 20px;
+    background-color: #37419f;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 13px;
+}
+main .Pricing .container2 .Pricing2 .content .card2{
+    width: 32%;
+    height: 550px;
+    background-image: url(../img/ax.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 30px;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text1{
+    width: 60%;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text1 h2{
+    font-size: 30px;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text1 p{
+    font-size: 13px;
+    margin: 15px 0px;
+    color: #7d7e7d;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text2{
+    border-top: 1px solid #727572;
+   padding-top: 20px;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon p{
+    font-size: 15px;
+    color: #5a5c5a;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon .icon2{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon .icon2 img{
+    width: 100%;
+}
+main .Pricing .container2 .Pricing2 .content .card2 button{
+    padding: 3%;
+    margin-top: 20px;
+    background-color: #37419f;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+
+main .apps .container .apps2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 17%;
+} 
+main .apps .container .apps2 .left{
+    width: 50%;
+    height: 350px;
+    background-image: url(../img/gb-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main .apps .container .apps2 .left h2{
+   margin: 20px 0px;
+   font-size: 30px;
+   margin-right: 200px;
+}
+main .apps .container .apps2 .left  p{
+    padding-right: 70px;
+    margin-bottom: 30px;
+    color: #7c7d7c;
+}
+main .apps .container .apps2 .left .icon{
+    display: flex;
+    align-items: center;
+}
+main .apps .container .apps2 .left .icon  img{
+    width: 17%;
+    margin-left: 20px;
+}
+main .apps .container .apps2 .right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .apps .container .apps2 .right img{
+    width: 100%;
+}
+
+
+
+
+main .latest .container4 .latest2{
+    padding-top: 17%;
+}
+main .latest .container4 .latest2 .hed_text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+main .latest .container4 .latest2 .hed_text h2{
+    font-size: 40px;
+}
+main .latest .container4 .latest2 .hed_text img{
+    width: 20%;
+    margin: 5px 0px;
+}
+main .latest .container4 .latest2 .hed_text p{
+    margin-top: 5px;
+    padding: 0px 40px;
+    color: #979292;
+}
+main .latest .container4 .latest2 .content{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+main .latest .container4 .latest2 .content .card{
+    width: 32%;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;   
+}
+main .latest .container4 .latest2 .content .card .text2{
+    height: 20px;
+    margin-top: 10px;
+}
+main .latest .container4 .latest2 .content .card h3{
+    padding: 0px 70px;
+}
+main .latest .container4 .latest2 .content .card .icon img{
+    width: 100%;
+}
+main .latest .container4 .latest2 .content .card .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+main .latest .container4 .latest2 .content .card .text img{
+    width: 4%;
+    margin-right: 10px;
+}
+main .latest .container4 .latest2 .content .card .text p{
+    margin-right: 20px;
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card .user{
+    border-top: 1px solid #7c7d7c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+main .latest .container4 .latest2 .content .card .user img{
+    width: 8%;
+}
+main .latest .container4 .latest2 .content .card .user .user2{
+    display: flex;
+    align-items: center;
+    
+}
+main .latest .container4 .latest2 .content .card .user .user2 p{
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card .user .user2 img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+main .latest .container4 .latest2 .content .card2{
+    width: 32%;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;   
+}
+main .latest .container4 .latest2 .content .card2 .text2{
+    height: 50px;
+    margin-top: 10px;
+}
+main .latest .container4 .latest2 .content .card2 h3{
+    padding: 0px 70px;
+}
+main .latest .container4 .latest2 .content .card2 .icon img{
+    width: 100%;
+}
+main .latest .container4 .latest2 .content .card2 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+main .latest .container4 .latest2 .content .card2 .text img{
+    width: 4%;
+    margin-right: 10px;
+}
+main .latest .container4 .latest2 .content .card2 .text p{
+    margin-right: 20px;
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card2 .user{
+    border-top: 1px solid #7c7d7c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+main .latest .container4 .latest2 .content .card2 .user img{
+    width: 8%;
+}
+main .latest .container4 .latest2 .content .card2 .user .user2{
+    display: flex;
+    align-items: center;
+    
+}
+main .latest .container4 .latest2 .content .card2 .user .user2 p{
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card2 .user .user2 img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+main .latest .container4 .latest2 .content .card3{
+    width: 32%;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;   
+}
+main .latest .container4 .latest2 .content .card3 .text2{
+    height: 50px;
+    margin-top: 10px;
+}
+main .latest .container4 .latest2 .content .card3 h3{
+    padding: 0px 70px;
+}
+main .latest .container4 .latest2 .content .card3 .icon img{
+    width: 100%;
+}
+main .latest .container4 .latest2 .content .card3 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+main .latest .container4 .latest2 .content .card3 .text img{
+    width: 4%;
+    margin-right: 10px;
+}
+main .latest .container4 .latest2 .content .card3 .text p{
+    margin-right: 20px;
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card3 .user{
+    border-top: 1px solid #7c7d7c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+main .latest .container4 .latest2 .content .card3 .user img{
+    width: 8%;
+}
+main .latest .container4 .latest2 .content .card3 .user .user2{
+    display: flex;
+    align-items: center;
+    
+}
+main .latest .container4 .latest2 .content .card3 .user .user2 p{
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card3 .user .user2 img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+main .latest .container4 .latest2 .content .card4{
+    width: 32%;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;   
+}
+main .latest .container4 .latest2 .content .card4 .text2{
+    height: 50px;
+    margin-top: 10px;
+}
+main .latest .container4 .latest2 .content .card4 h3{
+    padding: 0px 70px;
+}
+main .latest .container4 .latest2 .content .card4 .icon img{
+    width: 100%;
+}
+main .latest .container4 .latest2 .content .card4 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+main .latest .container4 .latest2 .content .card4 .text img{
+    width: 4%;
+    margin-right: 10px;
+}
+main .latest .container4 .latest2 .content .card4 .text p{
+    margin-right: 20px;
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card4 .user{
+    border-top: 1px solid #7c7d7c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+main .latest .container4 .latest2 .content .card4 .user img{
+    width: 8%;
+}
+main .latest .container4 .latest2 .content .card4 .user .user2{
+    display: flex;
+    align-items: center;
+    
+}
+main .latest .container4 .latest2 .content .card4 .user .user2 p{
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card4 .user .user2 img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+main .latest .container4 .latest2 .content .card5{
+    width: 32%;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;   
+}
+main .latest .container4 .latest2 .content .card5 .text2{
+    height: 20px;
+    margin-top: 10px;
+}
+main .latest .container4 .latest2 .content .card5 h3{
+    padding: 0px 70px;
+}
+main .latest .container4 .latest2 .content .card5 .icon img{
+    width: 100%;
+}
+main .latest .container4 .latest2 .content .card5 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+main .latest .container4 .latest2 .content .card5 .text img{
+    width: 4%;
+    margin-right: 10px;
+}
+main .latest .container4 .latest2 .content .card5 .text p{
+    margin-right: 20px;
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card5 .user{
+    border-top: 1px solid #7c7d7c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+main .latest .container4 .latest2 .content .card5 .user img{
+    width: 8%;
+}
+main .latest .container4 .latest2 .content .card5 .user .user2{
+    display: flex;
+    align-items: center;
+    
+}
+main .latest .container4 .latest2 .content .card5 .user .user2 p{
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card5 .user .user2 img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+
+main .latest .container4 .latest2 .content .card6{
+    width: 32%;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;   
+}
+main .latest .container4 .latest2 .content .card6 .text2{
+    height: 20px;
+    margin-top: 10px;
+}
+main .latest .container4 .latest2 .content .card6 h3{
+    padding: 0px 70px;
+}
+main .latest .container4 .latest2 .content .card6 .icon img{
+    width: 100%;
+}
+main .latest .container4 .latest2 .content .card6 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px;
+}
+main .latest .container4 .latest2 .content .card6 .text img{
+    width: 4%;
+    margin-right: 10px;
+}
+main .latest .container4 .latest2 .content .card6 .text p{
+    margin-right: 20px;
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card6 .user{
+    border-top: 1px solid #7c7d7c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+main .latest .container4 .latest2 .content .card6 .user img{
+    width: 8%;
+}
+main .latest .container4 .latest2 .content .card6 .user .user2{
+    display: flex;
+    align-items: center;
+    
+}
+main .latest .container4 .latest2 .content .card6 .user .user2 p{
+    color: #7e817e;
+}
+main .latest .container4 .latest2 .content .card6 .user .user2 img{
+    width: 20%;
+    margin-right: 20px;
+}
+
+
+footer .subscribe .container .subscribe2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .subscribe .container .subscribe2 .content{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 3%;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.15);
+    position: relative;
+    top: 100px;
+      
+}
+footer .subscribe .container .subscribe2 .content .left p{
+    margin-top: 5px;
+    color: #676967;
+} 
+footer .subscribe .container .subscribe2 .content .right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+}
+footer .subscribe .container .subscribe2 .content .right input{
+    height: 45px;
+    width: 70%;
+    border: 1px solid #727572;
+    padding-left: 10px;
+}
+footer .subscribe .container .subscribe2 .content .right button{
+    height: 45px;
+    width: 15%;
+    background-color: #072e6f;
+    border: none;
+}
+footer .subscribe .container .subscribe2 .content .right button img{
+    width: 25%;
+}
+
+footer .links{
+    margin-top: 50px;
+    background-color: #f7f7f7;
+}
+footer .links .container .links2{
+    display: flex;
+    justify-content: space-between;
+    padding: 9% 0% 5% 0%;
+}
+footer .links .container .links2 .cont3{
+    width: 25%;
+}
+footer .links .container .links2 .cont3 .text{
+    padding-left:5%;
+}
+footer .links .container .links2 .cont3 .content{
+    display: flex;
+    margin-top: 25px;
+}
+footer .links .container .links2 .cont3 .content .card{
+    width: 50%;
+}
+footer .links .container .links2 .cont3 .content .card p{
+    line-height: 40px;
+}
+footer .links .container .links2 .cont2{
+    text-align: center;
+    width: 50%;
+}
+footer .links .container .links2 .cont2 .logo img{
+    width: 25%;
+}
+footer .links .container .links2 .cont2 p{
+    font-size: 20px;
+    padding: 0px 100px;
+    line-height: 30px;
+    margin-top: 10px;
+    color: #8a8c8a;
+}
+footer .links .container .links2 .cont2 .icon{
+    margin-top: 10px;
+}
+footer .links .container .links2 .cont2 .icon img{
+    width: 5%;
+    margin: 0px 5px;
+}
+
+footer .links  .all{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:1px solid black ;
+    color: #323432;
+}
+
+
+
+
+@media screen and (max-width:1275px) {
+
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text2{
+        width: 100%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text .left{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text .left{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text .left{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text .left{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text .left{
+        width: 50%;
+    }
+
+    main .success .container3 .success2 .content .card .dun .icon2{
+        left: 250px;
+    }
+
+    main .latest .container4 .latest2 .content .card .text2{
+        height: auto;
+    }
+    main .latest .container4 .latest2 .content .card2 .text2{
+        height: auto;
+    }
+    main .latest .container4 .latest2 .content .card3 .text2{
+        height: auto;
+    }
+    main .latest .container4 .latest2 .content .card4 .text2{
+        height: auto;
+    }
+    main .latest .container4 .latest2 .content .card5 .text2{
+        height: auto;
+    }
+    main .latest .container4 .latest2 .content .card6 .text2{
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width:1175px) {
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text .left{
+        width: 60%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text .left{
+        width: 60%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text .left{
+        width: 60%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text .left{
+        width: 60%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text .left{
+        width: 60%;
+    }
+
+    main .success .container3 .success2 .content .card .dun .icon2{
+        left: 200px;
+    }
+}
+
+
+@media screen and (max-width:1075px) {
+    header .heder_nav .left .card{
+        margin-right: 30px;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text .left{
+        width: 70%;
+    }
+    main .success .container3 .success2 .content .card .dun .icon2{
+        left: 180px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    header .heder_nav{
+        flex-direction: column;
+    }
+    header .heder_nav .left{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    header .heder_nav .right{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    header .heder_nav .right p{
+        margin-right: 10px;
+    }
+
+    header .man_nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header .man_nav .icon{
+        width: 100%;
+    }
+    header .man_nav .icon .main_logo img{
+        width: 70%;
+    }
+   
+    header .man_nav .list{
+        width: 100%;
+    }
+    header .man_nav .list2{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header .man_nav .list2 .main_list{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    header .man_nav .list2 .main_list p{
+        margin: 5px 0px;
+    }
+    header .man_nav .list2 .main_list2 {
+        width: 100%;
+        justify-content: end;
+    }
+    header .man_nav .list2 .main_list2 .card2{
+        padding: 1%;
+    }
+    header .man_nav .list2 .main_list2 .card{
+        margin-right: 10px;
+    }
+
+    header .man_nav .icon .manu_icon{
+        display:block;
+    }
+    .list{
+        display: none;
+    }
+    .show{
+        display: block;
+    }
+
+
+    main .banner .container .banner1 .top .content2{
+        width: 80%;
+    }
+    main .banner .container .banner1 .top .content .card1{
+        width: 30%;
+    }
+    main .banner .container .banner1 .top .content .card2{
+        width: 25%;
+    }
+    main .banner .container .banner1 .top .content .card3{
+        width: 25%;
+    }
+    main .banner .container .banner1 .top .content .card4{
+        width: 15%;
+    }
+
+
+    main .job .container .job2{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1{
+        width: 100%;
+    }
+    
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card2{
+        width: 40%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2{
+        margin-top: 20px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card2{
+        width: 40%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3{
+        margin-top: 20px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card2{
+        width: 40%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4{
+        margin-top: 20px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card2{
+        width: 40%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5{
+        margin-top: 20px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card2{
+        width: 40%;
+    }
+
+    main .job .container .job2 .content2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    main .job .container .job2 .content2 .text1{
+        height: 50px;
+    }
+
+    main .job .container .job2 .content2 .card2 .row1{
+        text-align: center;
+    }
+    main .job .container .job2 .content2 .card2{
+        margin-top: 50px;
+    }
+
+
+    main .job .container .job2 .content2 .card3{
+        margin-top: 30px;
+    }
+    main .job .container .job2 .content2 .card3 .question{
+        margin: auto;
+        height: auto;
+        background-size: 100% 100%;
+    }
+    main .job .container .job2 .content2 .card3 .question .text{
+        text-align: center;
+    }
+    main .job .container .job2 .content2 .card3 .question .text p{
+        padding: 0;
+    }
+    main .job .container .job2 .content2 .card3 .question .text .icon{
+        height: 50px ;
+        width: 50px;
+        margin: auto;
+    }
+    main .job .container .job2 .content2 .card3 .question .text .icon img{
+        width: 100%;
+    }
+
+
+    main .hiring .container2 .hiring2{
+       padding: 50px 0px;
+    }
+    main .hiring .container2 .hiring2 .content .card{
+        width: 20%;
+    }
+
+
+    main .employer .container .content{
+        flex-direction: column;
+        padding: 7% 0%;
+    }
+    main .employer .container .content .card{
+        width: 70%;
+        height: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    main .employer .container .content .card p{
+        padding: 0;
+    }
+    main .employer .container .content .card2{
+        width: 70%;
+        height: auto;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    main .employer .container .content .card2 p{
+        padding: 0;
+    }
+
+
+    main .success .container3 .success2 .content{
+        flex-direction: column;
+        text-align: center;
+    }
+    main .success .container3 .success2 .content .card p{
+        padding: 0;
+    }
+    main .success .container3 .success2 .content .card .dun .text{
+        text-align:start;
+    }
+    main .success .container3 .success2 .content .card{
+        width: 60%;
+        margin-bottom: 20px;
+        padding: 20px;
+
+    }
+    main .success .container3 .success2 .content .card .dun .icon2{
+        height: 60px;
+        width: 60px;
+        left: 330px;
+    }
+
+
+    main .Pricing .container2 .Pricing2 .content{
+        flex-direction: column;
+    }
+    main .Pricing .container2 .Pricing2 .content .card{
+        width: 60%;
+        text-align: center;
+        height: auto;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1{
+        width: 100%;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2{
+        width: 60%;
+        text-align: center;
+        margin: 20px 0px;
+        height: auto;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text1{
+        width: 100%;
+    }
+
+
+    main .apps .container .apps2{
+        flex-direction: column;
+        padding-top: 10%;
+    }
+    main .apps .container .apps2 .left{
+        height: auto;
+        width: 60%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    main .apps .container .apps2 .left h3{
+        margin-bottom: 20px;
+    }
+    main .apps .container .apps2 .left h2{
+        margin: 0;
+    }
+    main .apps .container .apps2 .left  p{
+        padding: 0;
+        margin: 20px 0px;
+    }
+    main .apps .container .apps2 .left .icon{
+        justify-content: center;
+    }
+    main .apps .container .apps2 .right{
+        width: 60%;
+    }
+    main .apps .container .apps2 .right img{
+        width: 80%;
+    }
+
+
+    main .latest .container4 .latest2{
+        padding-top: 10%;
+    }
+    main .latest .container4 .latest2 .hed_text{
+        width: 100%;
+    }
+    main .latest .container4 .latest2 .content{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    main .latest .container4 .latest2 .content .card{
+        width: 50%;
+    }
+    main .latest .container4 .latest2 .content .card2{
+        width: 50%;
+    }
+    main .latest .container4 .latest2 .content .card3{
+        width: 50%;
+    }
+    main .latest .container4 .latest2 .content .card4{
+        width: 50%;
+    }
+    main .latest .container4 .latest2 .content .card5{
+        width: 50%;
+    }
+    main .latest .container4 .latest2 .content .card6{
+        width: 50%;
+    }
+    
+
+    footer .subscribe .container .subscribe2 .content{
+        flex-direction: column;
+        top: 0;
+    }
+    footer .subscribe .container .subscribe2 .content .left{
+        text-align: center;
+    }
+    footer .subscribe .container .subscribe2 .content .right{
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    footer .links .container .links2{
+        flex-direction: column;
+        padding: 5% 0%;
+    }
+    footer .links .container .links2 .cont3{
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer .links .container .links2 .cont2{
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer .links .container .links2 .cont2 p{
+        padding: 0px 50px;
+    }
+
+    
+   
+    
+
+}
+
+
+@media screen and (max-width:757px) {
+    header .heder_nav .left .card{
+        margin-right: 20px;
+    }
+    header .heder_nav .left .card i{
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    header .heder_nav .left .card p{
+        font-size: 10px;
+    }
+    header .heder_nav .right p{
+        font-size: 13px;
+    }
+
+    header .man_nav .icon .main_logo img{
+        width: 60%;
+    }
+
+
+    main .banner {
+        height: auto;
+    }
+    main .banner .container .banner1 .top{
+        text-align: center;
+    }
+    main .banner .container .banner1 .top h1{
+        font-size: 30px;
+    }
+    main .banner .container .banner1 .top .content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main .banner .container .banner1 .top .content .card1{
+        width: 50%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    main .banner .container .banner1 .top .content .card2{
+        width: 40%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    main .banner .container .banner1 .top .content .card3{
+        width: 30%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    main .banner .container .banner1 .top .content .card4{
+        width: 20%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    main .banner .container .banner1 .top .content2{
+        width: 100%;
+    }
+
+   
+    main .banner .banner2 .container .banner3{
+        flex-direction: column;
+    }
+    main .banner .banner2 .container .banner3 .left{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .banner .banner2 .container .banner3 .right{
+        width: 100%;
+    }
+    main .banner .banner2 .container .banner3 .right button{
+        width: 30%;
+        height: 40px;
+    }
+
+    main .job .container .job2 .content1 .hed_text{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .hed_text .left{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .job .container .job2 .content1 .hed_text .right{
+        width: 100%;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card2{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2{
+        margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card2{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3{
+        margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card2{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4{
+        margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card2{
+        width: 50%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5{
+        margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card2{
+        width: 50%;
+    }
+
+
+    main .job .container .job2 .content2 .text1{
+        height: 40px;
+    }
+    main .job .container .job2 .content2 .text3{
+        height: 40px;
+    }
+    main .job .container .job2 .content2 .text4{
+        height: 50px;
+    }
+    main .job .container .job2 .content2 .text5{
+        height: 40px;
+    }
+
+    main .job .container .job2 .content2 .card2{
+        margin-top: 30px;
+    }
+
+
+    main .job .container .job2 .content2 .card3{
+        margin-top: 20px;
+    }
+    main .job .container .job2 .content2 .card3 .question{
+        width: 80%;
+    }
+    main .job .container .job2 .content2 .card3 .question .text{
+        margin-top: 20px;
+    }
+
+
+    main .hiring .container2 .hiring2{
+        padding: 40px 0px;
+    }
+    main .hiring .container2 .hiring2 .hed_text2 h2{
+        font-size: 35px;
+    }
+    main .hiring .container2 .hiring2 .content .card{
+        width: 30%;
+        margin: 15px 15px;
+    }
+
+
+    main .employer .container .content{
+        padding: 5% 0%;
+    }
+    main .employer .container .content .card{
+        width: 80%;
+    }
+    main .employer .container .content .card button{
+        width: 30%;
+    }
+    main .employer .container .content .card p{
+        margin: 10px 0px;
+    }
+    main .employer .container .content .card2{
+        width: 80%;
+    }
+    main .employer .container .content .card2 button{
+        width: 30%;
+    }
+    main .employer .container .content .card2 p{
+        margin: 10px 0px;
+    }
+
+
+
+    main .success .container3 .success2 .hed_text h2{
+        font-size: 35px;
+    }
+    main .success .container3 .success2 .content .card{
+        width: 80%;
+    }
+    main .success .container3 .success2 .content .card .dun{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    main .success .container3 .success2 .content .card .dun .icon{
+        margin-bottom: 10px;
+    }
+    main .success .container3 .success2 .content .card .dun .text{
+        text-align: center;
+    }
+    main .success .container3 .success2 .content .card .dun .icon2{
+        left: 0;
+        top: 90px;
+        height: 50px;
+        width: 50px;
+    }
+
+    main .Pricing .container2 .Pricing2 .hed_text h2{
+        font-size: 35px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card{
+        width: 80%;
+        padding: 20px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1 h2{
+        font-size: 25px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2{
+        width: 80%;
+        padding: 20px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2{
+        width: 80%;
+        padding: 20px;
+    }
+  
+
+    main .apps .container .apps2 .left{
+        width: 80%;
+    }
+    main .apps .container .apps2 .left h3{
+        margin-bottom: 15px;
+    }
+    main .apps .container .apps2 .left h2{
+        font-size: 25px;
+    }
+    main .apps .container .apps2 .left  p{
+        margin: 15px 0px;
+    }
+    main .apps .container .apps2 .right{
+        width: 80%;
+    }
+    main .apps .container .apps2 .right img{
+        width: 60%;
+    }
+
+
+    main .latest .container4 .latest2 .hed_text h2{
+        font-size: 35px;
+    }
+    main .latest .container4 .latest2 .hed_text p{
+        padding: 0;
+    }
+    main .latest .container4 .latest2 .content{
+        margin-top: 30px;
+    }
+
+    main .latest .container4 .latest2 .content .card{
+        width: 60%;
+    }
+    main .latest .container4 .latest2 .content .card h3{
+        padding: 0;
+    }
+    main .latest .container4 .latest2 .content .card .user{
+        padding: 10px;
+    }
+
+    main .latest .container4 .latest2 .content .card2{
+        width: 60%;
+    }
+    main .latest .container4 .latest2 .content .card2 h3{
+        padding: 0;
+    }
+    main .latest .container4 .latest2 .content .card2 .user{
+        padding: 10px;
+    }
+
+    main .latest .container4 .latest2 .content .card3{
+        width: 60%;
+    }
+    main .latest .container4 .latest2 .content .card3 h3{
+        padding: 0;
+    }
+    main .latest .container4 .latest2 .content .card3 .user{
+        padding: 10px;
+    }
+
+    main .latest .container4 .latest2 .content .card4{
+        width: 60%;
+    }
+    main .latest .container4 .latest2 .content .card4 h3{
+        padding: 0;
+    }
+    main .latest .container4 .latest2 .content .card4 .user{
+        padding: 10px;
+    }
+
+    main .latest .container4 .latest2 .content .card5{
+        width: 60%;
+    }
+    main .latest .container4 .latest2 .content .card5 h3{
+        padding: 0;
+    }
+    main .latest .container4 .latest2 .content .card5 .user{
+        padding: 10px;
+    }
+
+    main .latest .container4 .latest2 .content .card6{
+        width: 60%;
+    }
+    main .latest .container4 .latest2 .content .card6 h3{
+        padding: 0;
+    }
+    main .latest .container4 .latest2 .content .card6 .user{
+        padding: 10px;
+    }
+
+
+    footer .links .container .links2 .cont3{
+        width: 70%;
+    }
+    footer .links .container .links2 .cont3 .content{
+        margin-top: 20px;
+    }
+    footer .links .container .links2 .cont3 .content .card p{
+        line-height: 30px;
+    }
+    footer .links .container .links2 .cont2{
+        width: 70%;
+    }
+    footer .links .container .links2 .cont2 p{
+        padding: 0px 40px;
+    }
+    
+}
+
+
+@media screen and (max-width:575px) {
+    header .heder_nav .left{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header .heder_nav .left .card{
+        margin-bottom: 5px;
+    }
+    header .heder_nav .left .card i{
+        font-size: 13px;
+    }
+    header .heder_nav .right{
+        justify-content: end;
+    }
+
+    header .man_nav .icon .main_logo img{
+        width: 50%;
+    }
+
+
+    main .banner .container .banner1 .top h3{
+        font-size: 15px;
+    }
+    main .banner .container .banner1 .top h1{
+        font-size: 25px;
+    }
+    main .banner .container .banner1 .top .content .card1{
+        width: 70%;
+        height: 30px;
+    }
+    main .banner .container .banner1 .top .content .card2{
+        width: 60%;
+        height: 30px;
+    }
+    main .banner .container .banner1 .top .content .card3{
+        width: 50%;
+        height: 30px;
+    }
+    main .banner .container .banner1 .top .content .card4{
+        width: 40%;
+        height: 30px;
+    }
+    main .banner .container .banner1 .top .content2{
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    main .banner .container .banner1 .top .content2 p{
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+    main .banner .banner2 .container .banner3 .left .icon{
+        width: 15%;
+    }
+    main .banner .banner2 .container .banner3 .left .text h3{
+        font-size: 13px;
+    }
+    main .banner .banner2 .container .banner3 .left .text p{
+        font-size: 13px;
+    }
+    main .banner .banner2 .container .banner3 .right button{
+        width: 40%;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    
+    main .job .container .job2 .content1 .hed_text .right{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .hed_text .right button{
+        height: 35px;
+        margin-bottom: 5px;
+    }
+    main .job .container .job2 .content1 .hed_text .left{
+       text-align: center;
+    }
+    main .job .container .job2 .content1 .hed_text .left h2{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+
+    main .job .container .job2 .content1 .apply{
+        margin-top: 10px;
+    }
+
+
+    main .job .container .job2 .content1 .apply .apply_card1 .top{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .icon{
+        height: 65px;
+        width: 65px;
+        margin: auto;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text {
+       margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text h3{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text .left{
+        width: 100%; 
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card2{
+        width: 100%;
+        margin-top: 10PX;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card2 button{
+        margin: auto;
+        width: 60%;
+        padding: 2%;
+    }
+
+
+    main .job .container .job2 .content1 .apply .apply_card2 .top{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .icon{
+        height: 65px;
+        width: 65px;
+        margin: auto;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text {
+       margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text h3{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text .left{
+        width: 100%; 
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card2{
+        width: 100%;
+        margin-top: 10PX;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card2 button{
+        margin: auto;
+        width: 60%;
+        padding: 2%;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card3 .top{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .icon{
+        height: 65px;
+        width: 65px;
+        margin: auto;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text {
+       margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text h3{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text .left{
+        width: 100%; 
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card2{
+        width: 100%;
+        margin-top: 10PX;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card2 button{
+        margin: auto;
+        width: 60%;
+        padding: 2%;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card4 .top{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .icon{
+        height: 65px;
+        width: 65px;
+        margin: auto;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text {
+       margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text h3{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text .left{
+        width: 100%; 
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card2{
+        width: 100%;
+        margin-top: 10PX;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card2 button{
+        margin: auto;
+        width: 60%;
+        padding: 2%;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card5 .top{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .icon{
+        height: 65px;
+        width: 65px;
+        margin: auto;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text {
+       margin-top: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text h3{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text .left{
+        width: 100%; 
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card2{
+        width: 100%;
+        margin-top: 10PX;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card2 button{
+        margin: auto;
+        width: 60%;
+        padding: 2%;
+    }
+
+
+
+    main .job .container .job2 .content2 .text1{
+        height: 30px;
+    }
+    main .job .container .job2 .content2 .text2 .icon1{
+        padding: 5px;
+    }
+    main .job .container .job2 .content2 .text2 .icon2{
+        padding: 10px 0px;
+    }
+    main .job .container .job2 .content2 .text2 .icon2 h2{
+        font-size: 20px;
+    }
+    main .job .container .job2 .content2 .text2 .icon2 p{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content2 .text3{
+        height: 30px;
+    }
+    main .job .container .job2 .content2 .text4{
+        height: 40px;
+    }
+    main .job .container .job2 .content2 .text4 .card{
+        padding: 4px;
+    }
+    main .job .container .job2 .content2 .text5{
+        height: 30px;
+        font-size: 15px;
+    }
+
+
+    main .job .container .job2 .content2 .card2{
+        margin-top: 20px;
+    }
+
+
+    
+    main .job .container .job2 .content2 .card3{
+        margin-top: 10px;
+    }
+    main .job .container .job2 .content2 .card3 .question{
+        width: 100%;
+    }
+    main .job .container .job2 .content2 .card3 .question .text .icon{
+        height: 40px ;
+        width: 40px;
+    }
+    main .job .container .job2 .content2 .card3 .question .text{
+        margin-top: 0px;
+    }
+
+
+    main .hiring .container2 .hiring2{
+        padding :30px 0px;
+    }
+    main .hiring .container2 .hiring2 .hed_text2 h2{
+        font-size: 30px;
+    }
+    main .hiring .container2 .hiring2 .content{
+        margin-top: 30px;
+    }
+    main .hiring .container2 .hiring2 .content .card{
+        width: 40%;
+        margin: 10px 10px;
+    }
+
+    main .employer .container .content .card{
+        width: 100%;
+    }
+    main .employer .container .content .card h2{
+        font-size: 20px;
+    }
+    main .employer .container .content .card p{
+        font-size: 14px;
+    }
+    main .employer .container .content .card button{
+        width: 40%;
+    }
+    main .employer .container .content .card2{
+        width: 100%;
+    }
+    main .employer .container .content .card2 h2{
+        font-size: 20px;
+    }
+    main .employer .container .content .card2 p{
+        font-size: 14px;
+    }
+    main .employer .container .content .card2 button{
+        width: 40%;
+    }
+
+
+    main .success .container3 .success2 .hed_text h2{
+        font-size: 25px;
+    }
+    main .success .container3 .success2 .hed_text p{
+        font-size: 15px;
+    }
+    main .success .container3 .success2 .content .card{
+        width: 100%;
+        padding: 10px;
+    }
+    main .success .container3 .success2 .content .card p{
+        font-size: 15px;
+    }
+    main .success .container3 .success2 .content .card .dun .text h3{
+        font-size: 18px;
+    }
+    main .success .container3 .success2 .content .card .dun .text p{
+        font-size: 15px;
+    }
+    main .success .container3 .success2 .content .card .dun .icon2{
+        height: 40px;
+        width: 40px;
+    }
+
+    main .Pricing .container2 .Pricing2 .hed_text h2{
+        font-size: 25px;
+    }
+    main .Pricing .container2 .Pricing2 .hed_text p{
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    main .Pricing .container2 .Pricing2 .content .card{
+        width: 90%;
+        padding: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2{
+        width: 90%;
+        padding: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1 h2{
+        font-size: 20px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1 h3{
+        font-size: 15px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1 p{
+        margin: 10px 0px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text2{
+        margin-top: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text2 .icon{
+        margin-bottom: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text2 .icon p{
+        font-size: 13px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card button{
+        margin-top: 10px;
+    }
+
+   
+    main .Pricing .container2 .Pricing2 .content .card2 .text1 h3{
+        font-size: 15px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text1 p{
+        margin: 10px 0px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text2{
+        margin-top: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon{
+        margin-bottom: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon p{
+        font-size: 13px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 button{
+        margin-top: 10px;
+    }
+   
+
+
+    main .apps .container .apps2 .left{
+        width: 100%;
+    }
+    main .apps .container .apps2 .left h3{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    main .apps .container .apps2 .left h2{
+        font-size: 20px;
+    }
+    main .apps .container .apps2 .left  p{
+        margin: 10px 0px;
+        font-size: 13px;
+    }
+    main .apps .container .apps2 .right{
+        width: 100%;
+    }
+    main .apps .container .apps2 .right img{
+        width: 60%;
+    }
+
+
+
+    main .latest .container4 .latest2 .hed_text h2{
+        font-size: 25px;
+    }
+    main .latest .container4 .latest2 .hed_text p{
+        font-size: 15px;
+    }
+   
+    main .latest .container4 .latest2 .content{
+        margin-top: 20px;
+    }
+    main .latest .container4 .latest2 .content .card{
+        width: 75%;
+    }
+    main .latest .container4 .latest2 .content .card .text p{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card .user .user2 p{
+        font-size: 15px;
+    }
+
+    main .latest .container4 .latest2 .content .card2{
+        width: 75%;
+    }
+    main .latest .container4 .latest2 .content .card2 .text p{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card2 .user .user2 p{
+        font-size: 15px;
+    }
+
+    main .latest .container4 .latest2 .content .card3{
+        width: 75%;
+    }
+    main .latest .container4 .latest2 .content .card3 .text p{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card3 .user .user2 p{
+        font-size: 15px;
+    }
+
+    main .latest .container4 .latest2 .content .card4{
+        width: 75%;
+    }
+    main .latest .container4 .latest2 .content .card4 .text p{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card4 .user .user2 p{
+        font-size: 15px;
+    }
+
+    main .latest .container4 .latest2 .content .card5{
+        width: 75%;
+    }
+    main .latest .container4 .latest2 .content .card5 .text p{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card5 .user .user2 p{
+        font-size: 15px;
+    }
+
+    main .latest .container4 .latest2 .content .card6{
+        width: 75%;
+    }
+    main .latest .container4 .latest2 .content .card6 .text p{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card6 .user .user2 p{
+        font-size: 15px;
+    }
+
+    footer .subscribe .container .subscribe2 .content .left h2{
+        font-size: 20px;
+    }
+    footer .subscribe .container .subscribe2 .content .left p{
+        font-size: 15px;
+    }
+    footer .subscribe .container .subscribe2 .content .right input{
+        width: 100%;
+        height: 40px;
+    }
+    footer .subscribe .container .subscribe2 .content .right button{
+        width: 20%;
+        height: 40px;
+    }
+
+
+
+    footer .links .container .links2 .cont3{
+        width: 85%;
+    }
+    footer .links .container .links2 .cont3 .content{
+        margin-top: 10px;
+    }
+    footer .links .container .links2 .cont3 .content .card p{
+        line-height: 25px;
+        font-size: 15px;
+    }
+    footer .links .container .links2 .cont2{
+        width: 85%;
+    }
+    footer .links .container .links2 .cont2 p{
+        padding: 0px 20px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    header .heder_nav .right p{
+        font-size: 10px;
+    }
+
+    header .man_nav .list2 .main_list p{
+        margin: 2px 0px;
+    }
+    header .man_nav .list2 .main_list p a{
+        font-size: 13px;
+       
+    }
+
+    header .man_nav .list2 .main_list2{
+        justify-content: center;
+    }
+    header .man_nav .list2 .main_list2 .card p a{
+        font-size: 13px;
+    }
+    header .man_nav .list2 .main_list2 .card2 i{
+        font-size: 10px;
+    }
+    header .man_nav .list2 .main_list2 .card2 p a{
+        font-size: 13px;
+    }
+
+
+    
+    main .banner .container .banner1 .top h3{
+        font-size: 13px;
+    }
+    main .banner .container .banner1 .top h1{
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+    main .banner .container .banner1 .top .content .card1{
+        width: 90%;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    main .banner .container .banner1 .top .content .card2{
+        width: 80%;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    main .banner .container .banner1 .top .content .card3{
+        width: 70%;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    main .banner .container .banner1 .top .content .card4{
+        width: 60%;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    main .banner .container .banner1 .top .content2 p{
+        font-size: 13px;
+    }
+
+    main .banner .banner2 .container .banner3 .left .icon{
+        width: 20%;
+    }
+    main .banner .banner2 .container .banner3 .left .text h3{
+        font-size: 10px;
+    }
+    main .banner .banner2 .container .banner3 .left .text p{
+        font-size: 10px;
+        line-height: normal;
+    }
+    main .banner .banner2 .container .banner3 .right button{
+        width: 60%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+
+
+    main .job .container .job2 .content1 .hed_text .left h2{
+        font-size: 20px;
+    }
+    main .job .container .job2 .content1 .hed_text .left p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .hed_text .right button{
+        font-size: 10px;
+        height: 30px;
+    }
+    main .job .container .job2 .content1 .hed_text .right p{
+        font-size: 10px;
+    }
+
+
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text{
+        text-align: center;
+        justify-content: space-around;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text h3{
+        font-size: 13px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text .left p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .top .text .right img{
+        width: 70%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card1{
+        flex-direction: column;
+        width: 100%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .left{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .right{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card1 .right .dot{
+        margin-right: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card1 .dun .card2 button{
+        width: 70%;
+        font-size: 10px;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text{
+        text-align: center;
+        justify-content: space-around;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text h3{
+        font-size: 13px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text .left p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .top .text .right img{
+        width: 70%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card1{
+        flex-direction: column;
+        width: 100%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .left{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .right{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card1 .right .dot{
+        margin-right: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card2 .dun .card2 button{
+        width: 70%;
+        font-size: 10px;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text{
+        text-align: center;
+        justify-content: space-around;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text h3{
+        font-size: 13px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text .left p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .top .text .right img{
+        width: 70%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card1{
+        flex-direction: column;
+        width: 100%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .left{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .right{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card1 .right .dot{
+        margin-right: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card3 .dun .card2 button{
+        width: 70%;
+        font-size: 10px;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text{
+        text-align: center;
+        justify-content: space-around;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text h3{
+        font-size: 13px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text .left p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .top .text .right img{
+        width: 70%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card1{
+        flex-direction: column;
+        width: 100%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .left{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .right{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card1 .right .dot{
+        margin-right: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card4 .dun .card2 button{
+        width: 70%;
+        font-size: 10px;
+    }
+
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text{
+        text-align: center;
+        justify-content: space-around;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text h3{
+        font-size: 13px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text .left p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .top .text .right img{
+        width: 70%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card1{
+        flex-direction: column;
+        width: 100%;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .left{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .right{
+        margin: auto;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card1 .right .dot{
+        margin-right: 10px;
+    }
+    main .job .container .job2 .content1 .apply .apply_card5 .dun .card2 button{
+        width: 70%;
+        font-size: 10px;
+    }
+
+
+    main .job .container .job2 .content2 .text1{
+        height: 20px;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content2 .text2 .icon1{
+        padding: 0px;
+    }
+    main .job .container .job2 .content2 .text2 .icon2{
+        padding: 5px 0px;
+    }
+    main .job .container .job2 .content2 .text2 .icon2 h2{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content2 .text2 .icon2 p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content2 .text3{
+        height: 20px;
+        font-size: 10px;
+
+    }
+    main .job .container .job2 .content2 .text4{
+        height: auto;
+        flex-direction: column;
+    }
+    main .job .container .job2 .content2 .text4 .card{
+        padding: 3px;
+        margin-top:5px;
+        font-size: 10px;
+    }
+    main .job .container .job2 .content2 .text5{
+        height: 20px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    main .job .container .job2 .content2 .card2{
+        margin-top: 10px;
+    }
+    main .job .container .job2 .content2 .card2 .row1 h3{
+        font-size: 15px;
+    }
+    main .job .container .job2 .content2 .card2 .row{
+        flex-direction: column;
+    }
+    main .job .container .job2 .content2 .card2 .row .left{
+        margin-bottom: 5px;
+        justify-content: center;
+        width: 100%;
+    }
+    main .job .container .job2 .content2 .card2 .row .left p{
+        font-size: 10px;
+    }
+    main .job .container .job2 .content2 .card2 .row .right p{
+        font-size: 10px;
+    }
+
+
+    main .job .container .job2 .content2 .card3 .question .text .icon{
+        height: 30px ;
+        width: 30px;
+    }
+    main .job .container .job2 .content2 .card3 .question .text h3{
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+    main .job .container .job2 .content2 .card3 .question .text p{
+        font-size: 10px;
+    }
+
+    main .hiring .container2 .hiring2{
+        padding: 10px 0px;
+    }
+    main .hiring .container2 .hiring2 .content{
+        margin-top: 10px;
+    }
+    main .hiring .container2 .hiring2 .hed_text2 h2{
+        font-size: 25px;
+    }
+    main .hiring .container2 .hiring2 .content .card{
+        width: 70%;
+        margin: 5px 5px;
+    }
+
+
+    main .employer .container .content .card h2{
+        font-size: 15px;
+    }
+    main .employer .container .content .card p{
+        font-size: 10px;
+    }
+    main .employer .container .content .card button{
+        width: 50%;
+    }
+    main .employer .container .content .card2 h2{
+        font-size: 15px;
+    }
+    main .employer .container .content .card2 p{
+        font-size: 10px;
+    }
+    main .employer .container .content .card2 button{
+        width: 50%;
+    }
+
+    main .success .container3 .success2 .hed_text h2{
+        font-size: 20px;
+    }
+    main .success .container3 .success2 .hed_text p{
+        font-size: 13px;
+    }
+    main .success .container3 .success2 .content .card{
+        padding:5px;
+    }
+    main .success .container3 .success2 .content .card p{
+        font-size: 13px;
+    }
+    main .success .container3 .success2 .content .card .dun .text h3{
+        font-size: 15px;
+    }
+    main .success .container3 .success2 .content .card .dun .text p{
+        font-size: 13px;
+    }
+    main .success .container3 .success2 .content .card .dun .icon2{
+        height: 30px;
+        width: 30px;
+    }
+
+    main .Pricing .container2 .Pricing2 .hed_text h2{
+        font-size: 20px;
+    }
+    main .Pricing .container2 .Pricing2 .hed_text p{
+        font-size: 13px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card{
+        width: 100%;
+        padding: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2{
+        width: 100%;
+        padding: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1 h2{
+        font-size: 18px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1 h3{
+        font-size: 13px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text1 p{
+        margin: 5px 0px;
+        font-size: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text2{
+        margin-top: 5px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text2 .icon{
+        margin-bottom: 5px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card .text2 .icon p{
+        font-size: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card button{
+        margin-top: 5px;
+    }
+
+    main .Pricing .container2 .Pricing2 .content .card2 .text1 h3{
+        font-size: 13px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text1 p{
+        margin: 5px 0px;
+        font-size: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text2{
+        margin-top: 5px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon{
+        margin-bottom: 5px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 .text2 .icon p{
+        font-size: 10px;
+    }
+    main .Pricing .container2 .Pricing2 .content .card2 button{
+        margin-top: 5px;
+    }
+
+
+    main .apps .container .apps2 .left h3{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    main .apps .container .apps2 .left h2{
+        font-size: 15px;
+    }
+    main .apps .container .apps2 .left  p{
+        margin: 5px 0px;
+        font-size: 10px;
+    }
+
+
+    main .latest .container4 .latest2 .hed_text h2{
+        font-size: 20px;
+    }
+    main .latest .container4 .latest2 .hed_text p{
+        font-size: 13px;
+        margin-top: 0;
+    }
+    main .latest .container4 .latest2 .content{
+        margin-top: 10px;
+    }
+
+    main .latest .container4 .latest2 .content .card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .latest .container4 .latest2 .content .card h3{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card .text2{
+        margin-top: 5px;
+    }
+    main .latest .container4 .latest2 .content .card .text{
+        margin: 5px 0px;
+    }
+    main .latest .container4 .latest2 .content .card .text p{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card .user{
+        padding: 5px;
+    }
+    main .latest .container4 .latest2 .content .card .user .user2 p{
+        font-size: 13px;
+    }
+
+    main .latest .container4 .latest2 .content .card2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .latest .container4 .latest2 .content .card2 h3{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card2 .text2{
+        margin-top: 5px;
+    }
+    main .latest .container4 .latest2 .content .card2 .text{
+        margin: 5px 0px;
+    }
+    main .latest .container4 .latest2 .content .card2 .text p{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card2 .user{
+        padding: 5px;
+    }
+    main .latest .container4 .latest2 .content .card2 .user .user2 p{
+        font-size: 13px;
+    }
+
+    main .latest .container4 .latest2 .content .card3{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .latest .container4 .latest2 .content .card3 h3{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card3 .text2{
+        margin-top: 5px;
+    }
+    main .latest .container4 .latest2 .content .card3 .text{
+        margin: 5px 0px;
+    }
+    main .latest .container4 .latest2 .content .card3 .text p{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card3 .user{
+        padding: 5px;
+    }
+    main .latest .container4 .latest2 .content .card3 .user .user2 p{
+        font-size: 13px;
+    }
+
+    main .latest .container4 .latest2 .content .card4{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .latest .container4 .latest2 .content .card4 h3{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card4 .text2{
+        margin-top: 5px;
+    }
+    main .latest .container4 .latest2 .content .card4 .text{
+        margin: 5px 0px;
+    }
+    main .latest .container4 .latest2 .content .card4 .text p{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card4 .user{
+        padding: 5px;
+    }
+    main .latest .container4 .latest2 .content .card4 .user .user2 p{
+        font-size: 13px;
+    }
+
+    main .latest .container4 .latest2 .content .card5{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .latest .container4 .latest2 .content .card5 h3{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card5 .text2{
+        margin-top: 5px;
+    }
+    main .latest .container4 .latest2 .content .card5 .text{
+        margin: 5px 0px;
+    }
+    main .latest .container4 .latest2 .content .card5 .text p{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card5 .user{
+        padding: 5px;
+    }
+    main .latest .container4 .latest2 .content .card5 .user .user2 p{
+        font-size: 13px;
+    }
+
+    main .latest .container4 .latest2 .content .card6{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .latest .container4 .latest2 .content .card6 h3{
+        font-size: 15px;
+    }
+    main .latest .container4 .latest2 .content .card6 .text2{
+        margin-top: 5px;
+    }
+    main .latest .container4 .latest2 .content .card6 .text{
+        margin: 5px 0px;
+    }
+    main .latest .container4 .latest2 .content .card6 .text p{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card6 .user{
+        padding: 5px;
+    }
+    main .latest .container4 .latest2 .content .card6 .user .user2 p{
+        font-size: 13px;
+    }
+
+
+    footer .subscribe .container .subscribe2 .content{
+        width: 100%;
+        padding: 3%;
+    }
+    footer .subscribe .container .subscribe2 .content .left h2{
+        font-size: 15px;
+    }
+    footer .subscribe .container .subscribe2 .content .left p{
+        font-size: 13px;
+    }
+    footer .subscribe .container .subscribe2 .content .right input{
+        width: 100%;
+        height: 30px;
+    }
+    footer .subscribe .container .subscribe2 .content .right button{
+        width: 20%;
+        height: 30px;
+    }
+
+
+    footer .links .container .links2 .cont3{
+        width: 100%;
+    }
+    footer .links .container .links2 .cont3 .text h2{
+        font-size: 17px;
+    }
+    footer .links .container .links2 .cont3 .content{
+        margin-top: 5px;
+        flex-direction: column;
+    }
+    footer .links .container .links2 .cont3 .content .card{
+        width: 100%;
+    }
+    footer .links .container .links2 .cont3 .content .card p{
+        line-height: 20px;
+        font-size: 13px;
+    }
+    footer .links .container .links2 .cont2{
+        width: 100%;
+    }
+    footer .links .container .links2 .cont2 p{
+        padding: 0px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    footer .links  .all p{
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:275px) {
+    header .man_nav .list2 .main_list2{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header .man_nav .list2 .main_list2 .card{
+        margin: 3px 0px;
+    }
+
+      
+    main .banner .container .banner1 .top h3{
+        font-size: 10px;
+    }
+    main .banner .container .banner1 .top h1{
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    main .banner .container .banner1 .top .content .card1{
+        width: 100%;
+        font-size: 10px;
+    }
+    main .banner .container .banner1 .top .content .card2{
+        width: 90%;
+        font-size: 10px;
+    }
+    main .banner .container .banner1 .top .content .card3{
+        width: 80%;
+        font-size: 10px;
+    }
+    main .banner .container .banner1 .top .content .card4{
+        width: 70%;
+        font-size: 10px;
+    }
+    main .banner .container .banner1 .top .content2 p{
+        font-size: 10px;
+    }
+
+    main .banner .banner2 .container .banner3 .left .icon{
+        width: 30%;
+    }
+    main .banner .banner2 .container .banner3 .right button{
+        width: 80%;
+        height: 30px;
+    }
+
+    main .hiring .container2 .hiring2 .hed_text2 h2{
+        font-size: 20px;
+    }
+    main .hiring .container2 .hiring2 .content .card{
+        width: 100%;
+    }
+
+    main .success .container3 .success2 .hed_text p{
+        font-size: 10px;
+    }
+
+    main .Pricing .container2 .Pricing2 .hed_text p{
+        font-size: 10px;
+    }
+
+    
+    main .latest .container4 .latest2 .hed_text h2{
+        font-size: 17px;
+    }
+    main .latest .container4 .latest2 .hed_text p{
+        font-size: 10px;
+    }
+
+    main .latest .container4 .latest2 .content .card h3{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card .text p{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    main .latest .container4 .latest2 .content .card .user .user2 p{
+        font-size: 10px;
+    }
+    main .latest .container4 .latest2 .content .card .user .user2 img{
+        width: 15%;
+    }
+
+    main .latest .container4 .latest2 .content .card2 h3{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card2 .text p{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    main .latest .container4 .latest2 .content .card2 .user .user2 p{
+        font-size: 10px;
+    }
+    main .latest .container4 .latest2 .content .card2 .user .user2 img{
+        width: 15%;
+    }
+
+    main .latest .container4 .latest2 .content .card3 h3{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card3 .text p{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    main .latest .container4 .latest2 .content .card3 .user .user2 p{
+        font-size: 10px;
+    }
+    main .latest .container4 .latest2 .content .card3 .user .user2 img{
+        width: 15%;
+    }
+
+    main .latest .container4 .latest2 .content .card4 h3{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card4 .text p{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    main .latest .container4 .latest2 .content .card4 .user .user2 p{
+        font-size: 10px;
+    }
+    main .latest .container4 .latest2 .content .card4 .user .user2 img{
+        width: 15%;
+    }
+
+    main .latest .container4 .latest2 .content .card5 h3{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card5 .text p{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    main .latest .container4 .latest2 .content .card5 .user .user2 p{
+        font-size: 10px;
+    }
+    main .latest .container4 .latest2 .content .card5 .user .user2 img{
+        width: 15%;
+    }
+
+    main .latest .container4 .latest2 .content .card6 h3{
+        font-size: 13px;
+    }
+    main .latest .container4 .latest2 .content .card6 .text p{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    main .latest .container4 .latest2 .content .card6 .user .user2 p{
+        font-size: 10px;
+    }
+    main .latest .container4 .latest2 .content .card6 .user .user2 img{
+        width: 15%;
+    }
+
+
+
+    footer .subscribe .container .subscribe2 .content .left p{
+        font-size: 10px;
+    }
+    footer .subscribe .container .subscribe2 .content .right input{
+        height: 25px;
+    }
+    footer .subscribe .container .subscribe2 .content .right button{
+        height: 25px;
+    }
+}
